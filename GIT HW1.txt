@@ -26,7 +26,7 @@ vim preferences.json
 "series":"better call soul",
 "food":"pasta",
 "season":"summer",
-"country":"Tokyo"}
+"country":"Japan"}
 
 
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
