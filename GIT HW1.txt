@@ -81,6 +81,7 @@ XML
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 
 vi new.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <info>
         <name>Maxim</name>
         <age>23</age>
@@ -98,6 +99,7 @@ vi new.xml
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
 
 vim preferences.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <info>
 
         <film>gentlemens</film>
@@ -111,6 +113,7 @@ vim preferences.xml
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 
 vim skills.xml
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <skills>
         <skill1>Git</skill1>
         <skill2>Bash</skill2>
@@ -129,6 +132,7 @@ git add . && git commit -m"added 2 files"
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. 
 
 bug_report.xml -> edit file
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <bug_report>
   <id>1</id>
   <summary>Squaring and Square root extraction operations don't appear on the application keyboard when switching to the Scientific mode</summary>
